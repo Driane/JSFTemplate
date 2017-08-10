@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html">
+      
+      
+<ui:composition template="template/Template.xhtml">
+<ui:define name="titre"></ui:define>
+		
+	<ui:define name="entete">
+  	<h:outputText value="Entete Java" />
+</ui:define>
+
+	<ui:define name="menu">
+  	<h:outputText value="FAQ" />
+	<h:outputText value="Tutoriels" />
+ 	<h:outputText value="Forums" />
+</ui:define>
+
+	<ui:define name="contenu">
+  	<h:outputText value="Les FAQs Java" />
+</ui:define>
+</ui:composition>
+</html>
